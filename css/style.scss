@@ -17,10 +17,9 @@ $clrRed: #fb3e3e;
   font-family: $mainFont;
   font-weight: 300;
   color: $clrLightGrey;
-  padding: 12% 6% 20%;
+  padding: 10% 6% 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-image: linear-gradient($clrBlackTransparent),
     url("../assets/mobile/image-host.jpg");
   background-repeat: no-repeat;
