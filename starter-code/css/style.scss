@@ -1,0 +1,122 @@
+$mainFont: "Chivo", sans-serif;
+$clrGreen: #54e6af;
+$clrDarkGrey: #2c344b;
+$clrGrey: #5a668a;
+$clrLightGrey: #c2cbe5;
+$clrBlack: #121725;
+$clrBlackTransparent: rgba(18, 23, 37, 0.8);
+$clrWhite: #fff;
+$clrRed: #fb3e3e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: $mainFont;
+  font-weight: 300;
+  color: $clrLightGrey;
+  padding: 12% 6% 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient($clrBlackTransparent),
+    url("../assets/mobile/image-host.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 15px;
+}
+.logo {
+  width: 134.85px;
+  height: 56px;
+  margin-bottom: 57px;
+}
+.hero__title {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 38px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.hero__title--green {
+  color: $clrGreen;
+}
+.hero__text {
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 33px;
+  padding: 0 8%;
+}
+.hero__brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.spotify {
+  width: 56px;
+  height: 17px;
+}
+.apple {
+  width: 45px;
+  height: 17px;
+}
+.google {
+  width: 73px;
+  height: 11px;
+}
+.pocket {
+  width: 77px;
+  height: 15px;
+}
+.form {
+  position: relative;
+}
+input[type="email"] {
+  width: 327px;
+  padding: 14px 32px;
+  border-radius: 28px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  background-color: $clrDarkGrey;
+  color: $clrLightGrey;
+  margin-bottom: 1rem;
+  &::placeholder {
+    color: $clrLightGrey;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+.alert {
+  position: absolute;
+  text-align: left;
+  color: $clrRed;
+  padding-left: 32px;
+  margin-top: 8px;
+  top: 35%;
+  font-size: 12px;
+  display: none;
+}
+.alert.active {
+  display: block;
+}
+
+.btn {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 900;
+  color: $clrBlack;
+  padding: 14px 32px;
+  border-radius: 28px;
+  border: none;
+  background-color: $clrGreen;
+  text-transform: capitalize;
+}
