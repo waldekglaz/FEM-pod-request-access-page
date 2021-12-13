@@ -94,8 +94,8 @@
   position: relative;
 }
 
-input[type="email"] {
-  width: 327px;
+.email {
+  width: 100%;
   padding: 14px 32px;
   border-radius: 28px;
   outline: none;
@@ -106,25 +106,25 @@ input[type="email"] {
   margin-bottom: 1rem;
 }
 
-input[type="email"]::-webkit-input-placeholder {
+.email::-webkit-input-placeholder {
   color: #c2cbe5;
   font-weight: 700;
   font-size: 14px;
 }
 
-input[type="email"]:-ms-input-placeholder {
+.email:-ms-input-placeholder {
   color: #c2cbe5;
   font-weight: 700;
   font-size: 14px;
 }
 
-input[type="email"]::-ms-input-placeholder {
+.email::-ms-input-placeholder {
   color: #c2cbe5;
   font-weight: 700;
   font-size: 14px;
 }
 
-input[type="email"]::placeholder {
+.email::placeholder {
   color: #c2cbe5;
   font-weight: 700;
   font-size: 14px;
