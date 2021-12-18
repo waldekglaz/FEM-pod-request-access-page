@@ -277,6 +277,7 @@
   .email {
     width: 100%;
     padding: 16px 32px;
+    margin-bottom: 2rem;
   }
   .btn {
     width: 100%;
@@ -302,6 +303,9 @@
   .pocket {
     width: 77px;
     height: 15px;
+  }
+  .alert {
+    top: 35%;
   }
 }
 
