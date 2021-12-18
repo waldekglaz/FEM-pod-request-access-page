@@ -221,7 +221,7 @@
 
 @media (max-width: 425px) {
   .container {
-    padding: 62px 24px 94px;
+    padding: 62px 10% 94px;
     text-align: center;
     position: relative;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 23, 37, 0.8))), url("../assets/tablet/image-host.jpg");
@@ -302,6 +302,13 @@
   .pocket {
     width: 77px;
     height: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding-left: 6%;
+    padding-right: 6%;
   }
 }
 /*# sourceMappingURL=style.css.map */
