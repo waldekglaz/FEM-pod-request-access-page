@@ -162,7 +162,13 @@
   text-transform: capitalize;
   padding: 10px 27px;
   margin-left: -171px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b3ffe2;
 }
 
 .bg__img {

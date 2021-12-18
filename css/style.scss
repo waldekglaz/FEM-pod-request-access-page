@@ -7,6 +7,7 @@ $clrBlack: #121725;
 $clrBlackTransparent: rgba(18, 23, 37, 0.8);
 $clrWhite: #fff;
 $clrRed: #fb3e3e;
+$clrGreenHover: #b3ffe2;
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +132,11 @@ $clrRed: #fb3e3e;
   text-transform: capitalize;
   padding: 10px 27px;
   margin-left: -171px;
+  transition: 0.3s ease-in;
   cursor: pointer;
+  &:hover {
+    background-color: $clrGreenHover;
+  }
 }
 .bg__img {
   position: absolute;
